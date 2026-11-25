@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.koen1999/suricata-check-mcp",
+  "description": "MCP Server for suricata-check, providing structured feedback on Suricata rules using FastMCP.",
+  "version": "0.1.0b0",
+  "repository": {
+    "url": "https://github.com/Koen1999/suricata-check-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "suricata-check-mcp",
+      "version": "0.1.0b0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

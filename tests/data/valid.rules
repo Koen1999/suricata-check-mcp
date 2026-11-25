@@ -1,0 +1,1 @@
+alert tcp $HOME_NET any -> $EXTERNAL_NET $HTTP_PORTS (msg:"Test HTTP rule"; flow:established,to_server; content:"GET"; http_method; sid:12345; rev:1;)
